@@ -1,0 +1,70 @@
+{
+  "header": {
+    "presentation": "HI &#128075; I'M NATHAN",
+    "stack": "FULL STACK DEVELOPER",
+    "experience": "&nbsp;I'M 21 YEARS OLD, A FULL STACK DEVELOPER WITH JUST OVER 6 MONTHS OF EXPERIENCE WORKING AS A FREELANCER AND IN THE INDUSTRY."
+  },
+  "body": {
+    "aboutMe": {
+      "title": "About Me",
+      "description": "I'm currently enrolled in the Computer Science program at Dom Helder Câmara College, where I'm immersed in the world of technology and continuous learning. My technical skills are complemented by a proficient level of English. I have a diverse background, ranging from system development experience to freelance work on projects involving various technologies. I'm excited to explore collaboration opportunities on challenging projects and connect with professionals who share my passion for technological innovation."
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "My technical skills encompass a variety of technologies widely used in the industry, including Java, JavaScript, TypeScript, Node.js, and React. I have practical experience in web development, with knowledge of tools like Git, GitHub, NPM, Composer, and databases such as MySQL, PostgreSQL, and MongoDB. Furthermore, I master both front-end and back-end, including languages like PHP and SQL, enabling me to contribute at all stages of software development."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Here are some of my web development projects. I take pride in the work I've done and hope you enjoy seeing them. Feel free to reach out if you have any questions or comments."
+    }
+  },
+  "projects": [
+    {
+      "title": "Rocket NFTs",
+      "description": "Rocket NFT is a stunning static landing page, created with HTML and CSS, designed to introduce you to the exciting world of collectibles in cryptocurrencies and non-fungible tokens (NFTs). This captivating page is a visually appealing portal, perfect for exploring the concept of NFTs and sparking your imagination.",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "link": "https://nathanmarques2001.github.io/Rocket-NFT/"
+    },
+    {
+      "title": "Britaldo Estoque",
+      "description": "Britaldo Estoque is a web application developed to assist Britaldo Soares School in managing its inventory of materials. The application was built using technologies like ReactJS and Firebase, incorporating an authentication and authorization system. This allows users to register and log in, with access to specific features based on their access levels.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Firebase",
+        "Firestore",
+        "NodeJS"
+      ],
+      "link": "https://britaldo-estoque.web.app/"
+    },
+    {
+      "title": "Pokédex",
+      "description": "Pokédex is an application that provides information about the Pokémon selected by the user. This Pokédex includes Pokémon up to the fourth generation, up to number 493. The project was developed with the aim of improving skills with the ReactJS framework and API consumption.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "PokéAPI"
+      ],
+      "link": "https://nathanmarques2001.github.io/Pokedex/"
+    },
+    {
+      "title": "Habits",
+      "description": "Habits is an application for tracking your daily habits. It allows you to add, complete, edit, and delete habits, with progress visualized through small squares that strengthen as you complete your habits, similar to GitHub commits.",
+      "technologies": [
+        "Typescript",
+        "ReactJS",
+        "React Native",
+        "Prisma",
+        "NodeJS"
+      ],
+      "link": "https://github.com/NathanMarques2001/Habits"
+    }
+  ]
+}
