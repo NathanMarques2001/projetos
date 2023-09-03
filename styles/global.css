@@ -5,7 +5,8 @@
   list-style: none;
   border: 0;
   --background: rgb(0, 78, 137);
-  --secondary-background: rgb(24, 148, 242);
+  --secondary-background: rgb(0, 94, 166);
+  --tertiary-background: rgb(24, 148, 242);
   --elements-color: rgb(231, 235, 197);
   --text-color: rgb(255, 255, 255);
   --gradient: radial-gradient(circle, rgba(52, 111, 196, 1) 0%, rgba(0, 78, 137, 1) 45%);

@@ -3,6 +3,10 @@ import imgLinkedin from "./images/linkedin.svg";
 import imgCurriculum from "./images/file.svg";
 import curriculum from "./curriculo.pdf";
 import imgTechs from "./images/techs.svg";
+import nft from './images/nft.png';
+import pokedex from './images/pokedex.png';
+import britaldo from './images/britaldo.png';
+import habits from './images/habits.png';
 
 export const links = {
   github: {
@@ -17,5 +21,8 @@ export const links = {
     url: curriculum,
     img: imgCurriculum
   },
-  techs: imgTechs
+  techs: imgTechs,
+  techsImages: [
+    nft, britaldo, pokedex, habits
+  ]
 }

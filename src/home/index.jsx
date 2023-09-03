@@ -1,6 +1,7 @@
 import './style.css'
 import { Header } from '../layout/header'
 import { Body } from '../layout/body'
+import { Projects } from '../layout/projects'
 import text from '../../languages/pt-br.json'
 import { links } from '../../assets/links'
 
@@ -8,8 +9,9 @@ import { links } from '../../assets/links'
 export function Home() {
 
   const { presentation, stack, experience } = text.header;
-  const { github, linkedin, curriculum, techs } = links;
+  const { github, linkedin, curriculum, techs, techsImages } = links;
   const { aboutMe, technologies, projects } = text.body;
+  const { portfolio } = text;
 
   return (
     <>
@@ -32,6 +34,10 @@ export function Home() {
         imgTechnologies={techs}
         projectsTitle={projects.title}
         projectsDescription={projects.descripion} />
+
+      <Projects
+        portfolio={portfolio}
+        images={techsImages} />
     </>
   )
 }

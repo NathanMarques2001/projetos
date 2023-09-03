@@ -2,35 +2,35 @@ import './style.css';
 
 function AboutMeSection({ aboutMeTitle, aboutMeDescription }) {
   return (
-    <section>
-      <h1>{aboutMeTitle}</h1>
-      <p>{aboutMeDescription}</p>
+    <section className='bodySection'>
+      <h1 className='sectionTitle'>{aboutMeTitle}</h1>
+      <p className='sectionDescription'>{aboutMeDescription}</p>
     </section>
   );
 }
 
 function TechnologiesSection({ technologiesTitle, technologiesDescription, imgTechnologies }) {
   return (
-    <section>
-      <h1>{technologiesTitle}</h1>
-      <p>{technologiesDescription}</p>
-      <img src={imgTechnologies} alt="PHP, JavaScript, ReactJS, TypeScript, Java, Linux" />
+    <section className='bodySection'>
+      <h1 className='sectionTitle'>{technologiesTitle}</h1>
+      <p className='sectionDescription'>{technologiesDescription}</p>
+      <img id='imgTechsSection' src={imgTechnologies} alt="PHP, JavaScript, ReactJS, TypeScript, Java, Linux" />
     </section>
   );
 }
 
 function ProjectsSection({ projectsTitle, projectsDescription }) {
   return (
-    <section>
-      <h1>{projectsTitle}</h1>
-      <p>{projectsDescription}</p>
+    <section className='bodySection' id='sectionProjects'>
+      <h1 className='sectionTitle'>{projectsTitle}</h1>
+      <p className='sectionDescription'>{projectsDescription}</p>
     </section>
   );
 }
 
 export function Body(props) {
   return (
-    <main>
+    <main id='mainContainerBody'>
       <AboutMeSection {...props} />
       <TechnologiesSection {...props} />
       <ProjectsSection {...props} />
