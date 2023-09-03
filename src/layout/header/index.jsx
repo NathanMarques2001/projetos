@@ -1,9 +1,9 @@
 import './style.css';
+import * as myFunctions from '../../../utils/functions';
 
 function NameIconsSection({ presentation, urlGithub, urlLinkedin, urlCurriculum, imgGithub, imgLinkedin, imgCurriculum }) {
-  const redirectSocialNetwork = (link) => {
-    window.open(link, "_blank");
-  };
+
+  const redirectSocialNetwork = (link) => myFunctions.redirect(link);
 
   return (
     <div id="header-div-name-icons">

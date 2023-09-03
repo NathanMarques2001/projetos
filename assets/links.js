@@ -23,6 +23,21 @@ export const links = {
   },
   techs: imgTechs,
   techsImages: [
-    nft, britaldo, pokedex, habits
+    {
+      url: nft,
+      title: 'Rocket NFT',
+    },
+    {
+      url: britaldo,
+      title: 'Britaldo Estoque',
+    },
+    {
+      url: pokedex,
+      title: 'Pokedex',
+    },
+    {
+      url: habits,
+      title: 'Habits',
+    }
   ]
 }

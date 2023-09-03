@@ -1,0 +1,37 @@
+#cardContainer {
+  width: 100%;
+  display: flex;
+}
+
+.cardText {
+  color: var(--text-color);
+}
+
+#cardContent {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  margin: 7% 5% 0 0;
+}
+
+#cardTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+#cardButton {
+  width: 60%;
+  height: 50px;
+  border-radius: 5px;
+  background: var(--elements-color);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 7%;
+}
+
+#cardButton:hover {
+  background: var(--elements-hover);
+  cursor: pointer;
+}
