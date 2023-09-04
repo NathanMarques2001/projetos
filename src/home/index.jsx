@@ -1,4 +1,3 @@
-import './style.css'
 import { Header } from '../layout/header'
 import { Body } from '../layout/body'
 import { Projects } from '../layout/projects'

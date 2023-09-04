@@ -41,6 +41,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: end;
+  text-align: justify;
 }
 
 #header-about-me {
@@ -58,4 +59,22 @@ header {
   transform: scale(1.1);
   transition: transform .3s;
   cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  header {
+    min-height: 50vh;
+  }
+
+  #header-about-me {
+    font-size: 1.7vw;
+  }
+
+  #header-div-icons {
+    width: 40%;
+  }
+
+  .header-img {
+    scale: 0.6;
+  }
 }

@@ -22,48 +22,21 @@
     {
       "title": "Rocket NFTs",
       "description": "Rocket NFT é uma deslumbrante landing page estática, criada com HTML e CSS, projetada para introduzir você ao emocionante mundo dos colecionáveis em criptomoedas e tokens não fungíveis (NFTs). Esta página cativante é um portal visualmente atraente, perfeito para explorar o conceito de NFTs e capturar sua imaginação.",
-      "technologies": [
-        "HTML",
-        "CSS"
-      ],
       "link": "https://nathanmarques2001.github.io/Rocket-NFT/"
     },
     {
       "title": "Britaldo Estoque",
       "description": "O Britaldo Estoque é uma aplicação web desenvolvida com o propósito de auxiliar a Escola Britaldo Soares no gerenciamento de seu estoque de materiais. A aplicação foi construída utilizando tecnologias como ReactJS e Firebase, incorporando um sistema de autenticação e autorização. Isso permite que os usuários se cadastrem e efetuem login, e, de acordo com seus níveis de acesso, tenham acesso a funcionalidades específicas.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ReactJS",
-        "Firebase",
-        "Firestore",
-        "NodeJS"
-      ],
       "link": "https://britaldo-estoque.web.app/"
     },
     {
       "title": "Pokédex",
-      "description": "A Pokédex é uma aplicação que fornece informações sobre os Pokémon selecionados pelo usuário. Esta Pokédex inclui Pokémon até a quarta geração, até o número 493. O projeto foi desenvolvido com o objetivo de aprimorar as habilidades com o framework ReactJS e o consumo de APIs.",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ReactJS",
-        "PokéAPI"
-      ],
+      "description": "A Pokédex é uma aplicação desenvolvida com ReactJS que fornece informações detalhadas sobre os Pokémon selecionados pelo usuário. Esta Pokédex inclui Pokémon até a quarta geração, totalizando até o número 493. O projeto foi criado com a biblioteca ReactJS e a API PokeAPI. Através desta aplicação, os usuários podem pesquisar, visualizar e aprender mais sobre seus Pokémon favoritos.",
       "link": "https://nathanmarques2001.github.io/Pokedex/"
     },
     {
       "title": "Habits",
-      "description": "Habits é um aplicativo para o controle de seus hábitos diários. Ele permite adicionar, concluir, editar e excluir hábitos, com o progresso visualizado por meio de pequenos quadrados que se fortalecem à medida que você completa seus hábitos, semelhante aos commits do Github.",
-      "technologies": [
-        "Typescript",
-        "ReactJS",
-        "React Native",
-        "Prisma",
-        "NodeJS"
-      ],
+      "description": "Habits é um aplicativo para o controle de seus hábitos diários, disponível tanto para web quanto para dispositivos móveis. Ele permite adicionar, concluir, editar e excluir hábitos, com o progresso visualizado por meio de pequenos quadrados que se fortalecem à medida que você completa seus hábitos, semelhante aos commits do Github.",
       "link": "https://github.com/NathanMarques2001/Habits"
     }
   ]

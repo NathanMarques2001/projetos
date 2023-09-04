@@ -8,7 +8,7 @@ export function Card({ img, imgAlt, index, title, description, link }) {
 
   return (
     <div id='cardContainer' style={{ background: backgroundColor }}>
-      <img src={img} alt={imgAlt} />
+      <img src={img} alt={imgAlt} id='cardImage' />
       <div id='cardContent'>
         <p className='cardText' id='cardTitle'>{title}</p>
         <p className='cardText' id='cardDescription'>{description}</p>

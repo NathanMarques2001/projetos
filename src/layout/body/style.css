@@ -34,3 +34,20 @@ main {
 #sectionProjects {
   border: 0;
 }
+
+@media (max-width: 1023px) {
+  .sectionTitle {
+    font-size: 5vw;
+    margin: 8% 0 6% 0;
+  }
+
+  .sectionDescription {
+    font-size: 3vw;
+    margin: 7.5% 0;
+  }
+
+  #imgTechsSection {
+    width: 75%;
+    margin-bottom: 7.5%;
+  }
+}

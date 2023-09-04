@@ -16,22 +16,49 @@
 }
 
 #cardTitle {
-  font-size: 32px;
+  font-size: 4vw;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
 #cardButton {
   width: 60%;
-  height: 50px;
   border-radius: 5px;
   background: var(--elements-color);
-  font-size: 18px;
+  padding: 4%;
   font-weight: bold;
   margin-top: 7%;
+}
+
+#cardImage {
+  width: 80%;
 }
 
 #cardButton:hover {
   background: var(--elements-hover);
   cursor: pointer;
+}
+
+@media (max-width: 1023px) {
+  #cardContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cardTitle {
+    font-size: 5vw;
+    margin-bottom: 8%;
+  }
+
+  #cardDescription {
+    font-size: 3vw;
+    max-width: 80%;
+  }
+
+  #cardButton {
+    width: 40%;
+    margin-top: 10%;
+    font-size: 2vw;
+  }
 }
