@@ -1,0 +1,53 @@
+main {
+  background-color: var(--secondary-background);
+}
+
+#mainContainerBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodySection {
+  color: var(--text-color);
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid var(--text-color);
+}
+
+#imgTechsSection {
+  width: 65%;
+  margin-bottom: 4.5%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin: 4% 0 3% 0;
+}
+
+.sectionDescription {
+  text-align: justify;
+  margin: 4.5% 0;
+}
+
+#sectionProjects {
+  border: 0;
+}
+
+@media (max-width: 1023px) {
+  .sectionTitle {
+    font-size: 5vw;
+    margin: 8% 0 6% 0;
+  }
+
+  .sectionDescription {
+    font-size: 3vw;
+    margin: 7.5% 0;
+  }
+
+  #imgTechsSection {
+    width: 75%;
+    margin-bottom: 7.5%;
+  }
+}
