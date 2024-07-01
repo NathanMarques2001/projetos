@@ -2,16 +2,16 @@
   "header": {
     "presentation": "OI 👋 EU SOU NATHAN",
     "stack": "FULL STACK DEVELOPER",
-    "experience": "TENHO 21 ANOS SOU DESENVOLVEDOR FULL STACK COM POUCO MAIS DE 6 MESES DE EXPERIÊNCIA TRABALHANDO COMO FREELANCER E ATUANDO NA ÁREA."
+    "experience": "TENHO 22 ANOS SOU DESENVOLVEDOR FULL STACK COM POUCO MAIS DE 2 ANOS DE EXPERIÊNCIA TRABALHANDO COMO FREELANCER E ATUANDO NA ÁREA."
   },
   "body": {
     "aboutMe": {
       "title": "Sobre mim",
-      "descripion": "Estou atualmente matriculado no curso de Ciência da Computação na Escola Superior Dom Helder Câmara, onde estou imerso no mundo da tecnologia e do aprendizado contínuo. Minhas habilidades técnicas são aprimoradas por um nível técnico de proficiência em inglês. Tenho uma trajetória que abrange projetos variados, desde experiência no desenvolvimento de sistemas até trabalhos independentes em projetos envolvendo tecnologias diversificadas. Estou animado em explorar oportunidades de colaboração em projetos desafiadores e conectar com outros profissionais que compartilham minha paixão pela inovação tecnológica."
+      "descripion": "Estou atualmente matriculado no curso de Ciência da Computação na Escola Superior Dom Helder Câmara, onde estou imerso no mundo da tecnologia e do aprendizado contínuo. Minhas habilidades técnicas são aprimoradas por um nível técnico de proficiência em inglês. Tenho uma trajetória que abrange projetos variados, desde experiência no desenvolvimento de sistemas até trabalhos independentes em projetos envolvendo tecnologias diversificadas. Estou animado em explorar oportunidades de colaboração em projetos desafiadores!"
     },
     "technologies": {
       "title": "Tecnologias",
-      "description": "Minhas habilidades técnicas abrangem diversas tecnologias amplamente utilizadas na indústria, incluindo Java, JavaScript, TypeScript, Node.js e React. Tenho experiência prática em desenvolvimento web, com conhecimento em ferramentas como Git, GitHub, NPM, Composer e bancos de dados como MySQL, PostgreSQL e MongoDB. Além disso, domino tanto o front-end quanto o back-end, incluindo linguagens como PHP e SQL, permitindo contribuir em todas as etapas do desenvolvimento de software."
+      "description": "Minhas habilidades técnicas abrangem diversas tecnologias amplamente utilizadas na indústria, incluindo Java, JavaScript, Node.js e React. Tenho experiência prática em desenvolvimento web, com conhecimento em ferramentas como Git, GitHub, Composer e bancos de dados como MySQL, PostgreSQL e MongoDB. Além disso, domino tanto o front-end quanto o back-end, incluindo linguagens como PHP e SQL, permitindo contribuir em todas as etapas do desenvolvimento de software."
     },
     "projects": {
       "title": "Projetos",
@@ -20,24 +20,62 @@
   },
   "portfolio": [
     {
-      "title": "Rocket NFTs",
-      "description": "Rocket NFT é uma deslumbrante landing page estática, criada com HTML e CSS, projetada para introduzir você ao emocionante mundo dos colecionáveis em criptomoedas e tokens não fungíveis (NFTs). Esta página cativante é um portal visualmente atraente, perfeito para explorar o conceito de NFTs e capturar sua imaginação.",
-      "link": "https://nathanmarques2001.github.io/Rocket-NFT/"
+      "title": "Prolinx - SGC",
+      "description": "Este projeto, desenvolvido para a empresa Prolinx, é um sistema de gerenciamento de contratos destinado ao setor de sucesso do cliente. O SGC foi construído com uma API própria desenvolvida em NodeJS e uma interface front-end em ReactJS, garantindo uma solução robusta e eficiente para o gerenciamento de contratos.",
+      "link": "/sgc/"
+    },
+    {
+      "title": "Movie Match",
+      "description": "Movie Match é um sistema de recomendação de filmes que combina avaliações de gêneros e Processamento de Linguagem Natural (NLP) para oferecer recomendações personalizadas aos usuários. As recomendações são geradas com base nas preferências e avaliações dos usuários, proporcionando uma experiência de descoberta de filmes mais relevante e personalizada.",
+      "link": "/movie-match/"
     },
     {
       "title": "Britaldo Estoque",
-      "description": "O Britaldo Estoque é uma aplicação web desenvolvida com o propósito de auxiliar a Escola Britaldo Soares no gerenciamento de seu estoque de materiais. A aplicação foi construída utilizando tecnologias como ReactJS e Firebase, incorporando um sistema de autenticação e autorização. Isso permite que os usuários se cadastrem e efetuem login, e, de acordo com seus níveis de acesso, tenham acesso a funcionalidades específicas.",
-      "link": "https://britaldo-estoque.web.app/"
+      "description": "Britaldo Estoque é uma aplicação web para a escola Britaldo Soares, com o objetivo de oferecer um controle de estoque mais eficiente, seguro e moderno. A aplicação permite à instituição abandonar o controle de estoque em papel, proporcionando uma solução escalável e adaptável para outras instituições de ensino e empresas. Nossa equipe de quatro integrantes utilizou tecnologias modernas para garantir uma experiência de usuário superior e uma infraestrutura robusta.",
+      "link": "/britaldo-estoque/"
     },
     {
-      "title": "Pokédex",
-      "description": "A Pokédex é uma aplicação desenvolvida com ReactJS que fornece informações detalhadas sobre os Pokémon selecionados pelo usuário. Esta Pokédex inclui Pokémon até a quarta geração, totalizando até o número 493. O projeto foi criado com a biblioteca ReactJS e a API PokeAPI. Através desta aplicação, os usuários podem pesquisar, visualizar e aprender mais sobre seus Pokémon favoritos.",
-      "link": "https://nathanmarques2001.github.io/Pokedex/"
+      "title": "Sistema de Reconhecimento Facial",
+      "description": "Sistema de reconhecimento facial desenvolvido utilizando os modelos pré-treinados do TensorFlow.js e a biblioteca Face API. O objetivo foi criar uma solução eficaz e acessível, focada na implementação direta no front-end, permitindo a execução em dispositivos com processadores menos potentes sem comprometer a precisão. O sistema utiliza a distância euclidiana entre pontos faciais para verificar a similaridade entre as faces cadastradas e as detectadas.",
+      "link": "/sistema-reconhecimento-facial/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Prolinx - SGC",
+      "description": "Este projeto, desenvolvido para a empresa Prolinx, é um sistema de gerenciamento de contratos destinado ao setor de sucesso do cliente. O SGC foi construído com uma API própria desenvolvida em NodeJS e uma interface front-end em ReactJS, garantindo uma solução robusta e eficiente para o gerenciamento de contratos.",
+      "screens": "As telas do SGC foram projetadas no Figma e desenvolvidas utilizando ReactJS, oferecendo uma experiência de usuário fluida e responsiva. Foram criadas páginas para login, cadastro de contratos, listagem de contratos e detalhes dos contratos, todas com componentes reutilizáveis e estilos personalizados com CSS.",
+      "techs": "A escolha das tecnologias para o SGC foi orientada pela necessidade de eficiência, segurança e escalabilidade. NodeJS foi escolhido para o back-end devido à sua capacidade de lidar com múltiplas conexões simultâneas e à sua eficiência em aplicações em tempo real. No front-end, utilizamos ReactJS por sua flexibilidade, reatividade e facilidade na criação de interfaces de usuário modernas e dinâmicas. O MySQL foi selecionado como banco de dados relacional robusto e eficiente, garantindo o armazenamento seguro e estruturado dos dados dos contratos. Nginx foi utilizado para hospedar a API e a interface em ReactJS, oferecendo alta performance e estabilidade. Para garantir que a API esteja sempre disponível e funcionando corretamente, utilizamos a ferramenta de gerenciamento de processos PM2. A autenticação segura de usuários é realizada com JWT, enquanto a encriptação de dados sensíveis é feita com bcryptjs, adicionando uma camada extra de segurança.",
+      "infrastructure": "O SGC foi hospedado na Azure, utilizando um servidor com Oracle Linux. A infraestrutura inclui o Nginx, configurado como servidor web e proxy reverso, suportando as chamadas à API. PM2 é utilizado para gerenciar a API NodeJS, garantindo sua disponibilidade e performance. O MySQL serve como servidor de banco de dados para armazenar todas as informações dos contratos. O firewall foi configurado para permitir chamadas HTTP em portas específicas, garantindo a segurança das comunicações.",
+      "front-end": "O front-end do SGC foi desenvolvido com ReactJS, garantindo uma experiência de usuário moderna e responsiva. Componentes reutilizáveis foram criados para as diferentes funcionalidades, e a comunicação com a API é feita através de serviços personalizados. O layout foi estilizado com CSS, garantindo uma interface limpa e intuitiva.",
+      "back-end": "O back-end do SGC foi construído com NodeJS e Express, fornecendo uma API RESTful para a interação com o banco de dados MySQL. A segurança é garantida com autenticação JWT e encriptação de dados com bcryptjs. O ORM Sequelize foi utilizado para facilitar o mapeamento objeto-relacional e a manipulação dos dados no banco de dados."
     },
     {
-      "title": "Habits",
-      "description": "Habits é um aplicativo para o controle de seus hábitos diários, disponível tanto para web quanto para dispositivos móveis. Ele permite adicionar, concluir, editar e excluir hábitos, com o progresso visualizado por meio de pequenos quadrados que se fortalecem à medida que você completa seus hábitos, semelhante aos commits do Github.",
-      "link": "https://github.com/NathanMarques2001/Habits"
+      "title": "Movie Match",
+      "description": "Movie Match é um sistema de recomendação de filmes que combina avaliações de gêneros e Processamento de Linguagem Natural (NLP) para oferecer recomendações personalizadas aos usuários. As recomendações são geradas com base nas preferências e avaliações dos usuários, proporcionando uma experiência de descoberta de filmes mais relevante e personalizada.",
+      "screens": "As telas do Movie Match foram projetadas com uma abordagem centrada no usuário, garantindo facilidade de uso e uma interface atraente. Utilizei HTML, CSS e JavaScript para criar as visualizações, enquanto o PHP gerencia a lógica de exibição e interação com o usuário.",
+      "techs": "A escolha das tecnologias para o Movie Match foi pensada para garantir uma interface web dinâmica. HTML, CSS e JavaScript foram utilizados para o desenvolvimento da interface web. PHP foi escolhido para a lógica de back-end, gestão de sessões de usuários e integração com o banco de dados. O servidor web Apache foi selecionado por sua confiabilidade e ampla utilização. Para o armazenamento de informações dos usuários e avaliações de filmes, optou-se pelo MySQL, um banco de dados robusto e eficiente. Para garantir a qualidade e a confiabilidade do código, PHPUnit foi utilizado para testes unitários.",
+      "infrastructure": "A infraestrutura do Movie Match foi configurada para garantir desempenho e escalabilidade. A aplicação é hospedada utilizando o servidor web Apache. O MySQL é utilizado para o armazenamento de dados. O Composer é empregado para gerenciar bibliotecas e pacotes PHP. O ambiente de desenvolvimento local foi configurado com servidor Apache e MySQL para testes e desenvolvimento contínuo.",
+      "front-end": "O front-end do Movie Match foi desenvolvido utilizando HTML e CSS para a estruturação e estilização das páginas, e JavaScript para adicionar funcionalidades dinâmicas e interativas. Além disso, foi implementado Processamento de Linguagem Natural (NLP) para melhorar as recomendações de filmes com base nas sinopses.",
+      "back-end": "O back-end foi implementado utilizando PHP, com foco na arquitetura MVC. Os modelos representam entidades como usuários, filmes e gêneros. Os controladores gerenciam a lógica de negócios e interações entre o modelo e a interface do usuário. As visualizações geram as páginas HTML exibidas aos usuários. Arquivos de configuração e utilitários foram criados para assegurar o funcionamento do sistema."
+    },
+    {
+      "title": "Britaldo Estoque",
+      "description": "Britaldo Estoque é uma aplicação web para a escola Britaldo Soares, com o objetivo de oferecer um controle de estoque mais eficiente, seguro e moderno. A aplicação permite à instituição abandonar o controle de estoque em papel, proporcionando uma solução escalável e adaptável para outras instituições de ensino e empresas. Nossa equipe de quatro integrantes utilizou tecnologias modernas para garantir uma experiência de usuário superior e uma infraestrutura robusta.",
+      "screens": "As telas do Britaldo Estoque foram projetadas no Figma e desenvolvidas com HTML, CSS, JavaScript e ReactJS, utilizando o Vite para criar uma SPA (Single Page Application) leve e fluida. A interface foi projetada para ser intuitiva e acessível em diferentes dispositivos, garantindo uma experiência consistente e eficiente para os usuários.",
+      "techs": "A escolha das tecnologias para o Britaldo Estoque foi orientada pela necessidade de flexibilidade, manutenção fácil e alta performance. HTML, CSS e JavaScript foram utilizados como tecnologias padrão para desenvolvimento web, garantindo uma base sólida. ReactJS com Vite foi escolhido por sua capacidade de criar Single Page Applications (SPAs) performáticas e por oferecer um desenvolvimento ágil e leve. No backend, NodeJS com Express foi utilizado para criar uma aplicação web escalável e de alta performance. Para hospedagem e banco de dados, o Firebase foi escolhido devido aos seus serviços integrados de autenticação e armazenamento NoSQL, que são ideais para as nossas necessidades sem relacionamento entre tabelas. Firestore, como banco de dados NoSQL, atende às necessidades da aplicação, facilitando a implementação e gestão dos dados.",
+      "infrastructure": "A infraestrutura do Britaldo Estoque foi configurada para garantir desempenho, segurança e escalabilidade. Utilizamos o Firebase para hospedar a aplicação, assegurando alta disponibilidade e segurança. O Firebase Firestore é usado para o armazenamento de dados, permitindo uma fácil escalabilidade e manutenção.",
+      "front-end": "O front-end do Britaldo Estoque foi desenvolvido com foco na usabilidade e responsividade. HTML e CSS foram utilizados para a estruturação e estilização das páginas, enquanto JavaScript e ReactJS foram empregados para criar uma interface dinâmica e interativa, com o Vite proporcionando um desenvolvimento mais rápido e eficiente.",
+      "back-end": "O back-end foi implementado utilizando NodeJS e Express. NodeJS foi escolhido para criar uma aplicação escalável e de alta performance, e o Express para gerenciar as rotas e a lógica do servidor. O Firebase foi utilizado para autenticação e gerenciamento do banco de dados Firestore, integrando perfeitamente com o resto da infraestrutura."
+    },
+    {
+      "title": "Sistema de Reconhecimento Facial",
+      "description": "Sistema de reconhecimento facial desenvolvido utilizando os modelos pré-treinados do TensorFlow.js e a biblioteca Face API. O objetivo foi criar uma solução eficaz e acessível, focada na implementação direta no front-end, permitindo a execução em dispositivos com processadores menos potentes sem comprometer a precisão. O sistema utiliza a distância euclidiana entre pontos faciais para verificar a similaridade entre as faces cadastradas e as detectadas.",
+      "screens": "As telas foram desenvolvidas utilizando HTML, CSS e JavaScript, com foco em uma interface amigável e intuitiva. A interface permite a interação com o sistema de reconhecimento facial, incluindo a captura de imagens e a exibição dos resultados.",
+      "techs": "A escolha das tecnologias para o projeto foi feita com base em suas capacidades e compatibilidades. TensorFlow.js foi escolhido por ser uma poderosa biblioteca de machine learning para JavaScript, permitindo a execução de modelos diretamente no navegador, o que elimina a necessidade de servidores robustos. A Face API foi selecionada devido à sua interface simples para a detecção e reconhecimento de rostos, sendo altamente compatível com TensorFlow.js. As tecnologias padrão para desenvolvimento web, como JavaScript, HTML e CSS, foram utilizadas para garantir flexibilidade e facilidade de manutenção. No back-end, o Node.js foi empregado para lidar com a lógica do servidor e comunicação com o banco de dados. Para o armazenamento dos vetores de características das faces, o PostgreSQL foi escolhido por ser um banco de dados relacional robusto e eficiente.",
+      "infrastructure": "A infraestrutura do projeto foi configurada para garantir eficiência e escalabilidade. O back-end é executado em servidores Node.js, que lidam com as requisições dos usuários e operações de banco de dados. O PostgreSQL é utilizado para armazenar os vetores de características das faces e outras informações relevantes. Para o desenvolvimento e testes locais, foi utilizado o VSCode com a extensão Live Server, que facilita o processo.",
+      "front-end": "O front-end foi desenvolvido com foco na usabilidade e acessibilidade. HTML e CSS foram empregados para a estruturação e estilização das páginas, enquanto o JavaScript foi utilizado para a manipulação dinâmica do DOM e integração com as APIs de reconhecimento facial. TensorFlow.js e a Face API foram integrados para realizar o reconhecimento facial diretamente no navegador, proporcionando uma experiência fluida ao usuário.",
+      "back-end": "O back-end foi implementado utilizando Node.js. Express.js foi utilizado para a criação de rotas e manipulação de requisições HTTP. O PostgreSQL foi escolhido para o armazenamento dos dados. Além disso, foram implementadas RESTful APIs para comunicação entre o front-end e o back-end, garantindo uma arquitetura modular e escalável."
     }
   ]
 }
