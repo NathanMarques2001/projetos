@@ -1,8 +1,8 @@
-import { Header } from '../layout/header'
-import { Body } from '../layout/body'
-import { Projects } from '../layout/projects'
-import text from '../../languages/pt-br.json'
-import { links } from '../../assets/links'
+import { Header } from '../../layout/header'
+import { Body } from '../../layout/body'
+import { Projects } from '../../layout/projects'
+import text from '../../../languages/pt-br.json'
+import { links } from '../../../assets/links'
 
 
 export function Home() {

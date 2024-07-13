@@ -18,6 +18,10 @@ import mmLogin from './images/movie-match/login.png';
 import mmModal from './images/movie-match/modal.png';
 import mmAssessments from './images/movie-match/assessments.png';
 import mmList from './images/movie-match/list.png';
+import beLogin from './images/britaldo-estoque/login.png';
+import beHome from './images/britaldo-estoque/home.png';
+import beSignup from './images/britaldo-estoque/signup.png';
+import beUsers from './images/britaldo-estoque/users.png';
 
 export const links = {
   github: {
@@ -36,7 +40,7 @@ export const links = {
   techsImages: [
     {
       url: sgc,
-      title: 'Prolinx - SGC',
+      title: 'Prolinx - CSApp',
     },
     {
       url: movie_match,
@@ -51,13 +55,11 @@ export const links = {
       title: 'Sistema de Reconhecimento Facial',
     }
   ],
-  projectsImages: [
-    {
-      title: 'Prolinx - SGC',
+  projectsImages: {
+    "csapp": {
       links: []
     },
-    {
-      title: 'Movie Match',
+    "movie-match": {
       links: [
         mmLogin,
         mmSignup,
@@ -67,12 +69,15 @@ export const links = {
         mmList
       ]
     },
-    {
-      title: 'Britaldo Estoque',
-      links: []
+    "britaldo-estoque": {
+      links: [
+        beLogin,
+        beSignup,
+        beHome,
+        beUsers
+      ]
     },
-    {
-      title: 'Sistema de Reconhecimento Facial',
+    "sistema-reconhecimento-facial": {
       links: [
         frHome,
         frSignup,
@@ -81,5 +86,5 @@ export const links = {
         frLogged
       ]
     }
-  ]
+  }
 }
