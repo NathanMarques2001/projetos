@@ -12,27 +12,29 @@
   flex-direction: column;
   text-align: justify;
   align-items: center;
-  margin: 7% 5% 0 0;
+  width: 100%;
+  margin-top: 5%;
+  padding: 0 6%;
 }
 
 #cardTitle {
-  font-size: 4vw;
+  font-size: 2.5vw;
   font-weight: bold;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   text-align: center;
 }
 
 #cardButton {
-  width: 60%;
+  width: 30%;
   border-radius: 5px;
   background: var(--elements-color);
-  padding: 4%;
+  padding: 2.5%;
   font-weight: bold;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 #cardImage {
-  width: 80%;
+  width: 60%;
 }
 
 #cardButton:hover {
@@ -48,18 +50,15 @@
   }
 
   #cardTitle {
-    font-size: 5vw;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
   }
 
   #cardDescription {
-    font-size: 3vw;
+    font-size: 2vw;
     max-width: 80%;
   }
 
   #cardButton {
-    width: 40%;
-    margin-top: 10%;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
