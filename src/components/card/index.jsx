@@ -4,7 +4,7 @@ import * as myFunctions from '../../../utils/functions';
 export function Card({ img, imgAlt, index, title, description, link }) {
   const redirect = () => myFunctions.redirect(link);
 
-  const backgroundColor = index % 2 === 0 ? 'var(--tertiary-background)' : 'var(--secondary-background)';
+  const backgroundColor = index % 2 === 0 ? 'var(--background)' : 'var(--secondary-background)';
 
   return (
     <div id='cardContainer' style={{ background: backgroundColor }}>

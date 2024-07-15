@@ -7,11 +7,11 @@ export function Carousel({ images }) {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
+    speed: 1500,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
   };
 
   return (
@@ -19,7 +19,7 @@ export function Carousel({ images }) {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slide ${index}`} style={{ width: '100%', height: 'auto' }} />
+            <img src={image} alt={`Slide ${index}`} style={{ width: '95%', height: 'auto' }} />
           </div>
         ))}
       </Slider>

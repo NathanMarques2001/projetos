@@ -19,7 +19,7 @@
   },
   "portfolio": [
     {
-      "title": "Prolinx - CSApp",
+      "title": "CSApp",
       "description": "Este projeto, desenvolvido para a empresa Prolinx, é um sistema de gerenciamento de contratos destinado ao setor de sucesso do cliente. O CSApp foi construído com uma API própria desenvolvida em NodeJS e uma interface front-end em ReactJS, garantindo uma solução robusta e eficiente para o gerenciamento de contratos.",
       "link": "/projetos/csapp/"
     },
@@ -41,7 +41,7 @@
   ],
   "projects": {
     "csapp": {
-      "title": "Prolinx - CSApp",
+      "title": "CSApp",
       "description": "Este projeto, desenvolvido para a empresa Prolinx, é um sistema de gerenciamento de contratos destinado ao setor de sucesso do cliente. O CSApp foi construído com uma API própria desenvolvida em NodeJS e uma interface front-end em ReactJS, garantindo uma solução robusta e eficiente para o gerenciamento de contratos.",
       "screens": "As telas do CSApp foram projetadas no Figma e desenvolvidas utilizando ReactJS, oferecendo uma experiência de usuário fluida e responsiva. Foram criadas páginas para login, cadastro de contratos, listagem de contratos e detalhes dos contratos, todas com componentes reutilizáveis e estilos personalizados com CSS.",
       "techs": "A escolha das tecnologias para o CSApp foi orientada pela necessidade de eficiência, segurança e escalabilidade. NodeJS foi escolhido para o back-end devido à sua capacidade de lidar com múltiplas conexões simultâneas e à sua eficiência em aplicações em tempo real. No front-end, utilizamos ReactJS por sua flexibilidade, reatividade e facilidade na criação de interfaces de usuário modernas e dinâmicas. O MySQL foi selecionado como banco de dados relacional robusto e eficiente, garantindo o armazenamento seguro e estruturado dos dados dos contratos. Nginx foi utilizado para hospedar a API e a interface em ReactJS, oferecendo alta performance e estabilidade. Para garantir que a API esteja sempre disponível e funcionando corretamente, utilizamos a ferramenta de gerenciamento de processos PM2. A autenticação segura de usuários é realizada com JWT, enquanto a encriptação de dados sensíveis é feita com bcryptjs, adicionando uma camada extra de segurança.",
