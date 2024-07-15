@@ -1,0 +1,41 @@
+#projectDescriptionContainer {
+  background-color: var(--secondary-background);
+  color: var(--text-color);
+  padding: 4.5rem;
+}
+
+#projectDescriptionHeader {
+  display: flex;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--text-color);
+}
+
+#projectDescriptionHeaderText {
+  margin-right: 18%;
+  text-align: justify;
+}
+
+#projectDescriptionHeaderTextTitle {
+  margin-bottom: 1.25rem;
+}
+
+#projectDescriptionBanner {
+  width: 100%;
+  border: 1px solid var(--text-color);
+}
+
+.projectDescriptionDiv {
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.projectDescriptionTextDescription {
+  margin-top: 1.25rem;
+  text-align: justify;
+}
+
+#projectDescriptionTextDescriptionScreens {
+  margin-bottom: 2.5rem;
+}
