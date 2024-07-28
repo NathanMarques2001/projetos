@@ -6,7 +6,7 @@ export function Rotas() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/projetos" element={<Home />} />
         <Route path="/csapp" element={<ProjectDescription projectTitle="csapp" />} />
         <Route path="/movie-match" element={<ProjectDescription projectTitle="movie-match" />} />
         <Route path="/britaldo-estoque" element={<ProjectDescription projectTitle="britaldo-estoque" />} />
