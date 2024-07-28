@@ -39,3 +39,28 @@
 #projectDescriptionTextDescriptionScreens {
   margin-bottom: 2.5rem;
 }
+
+@media (max-width: 1023px) {
+  #projectDescriptionHeaderTextTitle {
+    text-align: center;
+  }
+
+  #projectDescriptionHeader {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #projectDescriptionBanner {
+    width: 40%;
+  }
+
+  .projectDescriptionTitle {
+    font-size: 1rem;
+  }
+
+  .projectDescriptionTextDescription {
+    font-size: 0.5rem;
+  }
+}
