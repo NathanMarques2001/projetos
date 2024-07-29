@@ -11,10 +11,5 @@ git push
 
 npm run build 
 
-git subtree add --prefix dist origin gh-pages
-
-git subtree commit --prefix dist origin gh-pages
-
-REM Muda para a branch gh-pages
-git subtree push --prefix dist origin gh-pages
+git subtree push --prefix https://github.com/NathanMarques2001/projetos.git gh-pages
 
