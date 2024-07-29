@@ -11,5 +11,5 @@ git push
 
 npm run build 
 
-git subtree push --prefix https://github.com/NathanMarques2001/projetos.git gh-pages
+git subtree push --prefix dist https://github.com/NathanMarques2001/projetos.git gh-pages
 
