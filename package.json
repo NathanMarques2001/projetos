@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "commit": "git add . && git commit -m 'commit' && git push && git checkout gh-pages",
-    "deploy": "find . -mindepth 1 -maxdepth 1 ! -name 'dist' -exec rm -rf {} + && npm run build && git add dist && git commit -m 'deploy' && git push && git checkout main",
+    "deploy": "npm run build && find . -mindepth 1 -maxdepth 1 ! -name 'dist' -exec rm -rf {} + && git add . && git commit -m 'deploy' && git push && git checkout main",
     "preview": "vite preview"
   },
   "dependencies": {
