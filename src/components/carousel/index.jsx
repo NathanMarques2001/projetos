@@ -4,8 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 export function Carousel({ images }) {
+  const windowWidth = window.innerWidth < 1024 ? false : true;
+
   const settings = {
-    dots: true,
+    dots: windowWidth,
     infinite: true,
     speed: 1500,
     slidesToShow: 2,
