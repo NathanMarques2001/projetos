@@ -9,7 +9,8 @@ git commit -m "new changes"
 REM Empurra as mudanças para a branch main
 git push
 
+
+
 npm run build 
 
-git subtree push --prefix dist https://github.com/NathanMarques2001/projetos.git gh-pages
-
+git subtree push --prefix dist origin gh-pages
