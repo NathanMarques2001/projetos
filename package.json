@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "deploy": "git add . && git commit -m 'deploy' && git push && npm run build && git subtree push --prefix dist origin gh-pages",
+    "deploy": "echo $(date) > dist/version.txt && git add . && git commit -m 'deploy' && git push && npm run build && git subtree push --prefix dist origin gh-pages",
     "preview": "vite preview"
   },
   "dependencies": {
