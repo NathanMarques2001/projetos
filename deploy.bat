@@ -9,23 +9,12 @@ git commit -m "new changes"
 REM Empurra as mudanças para a branch main
 git push
 
+git subtree add --prefix dist origin gh-pages
+
+git subtree commit --prefix dist origin gh-pages
+
 REM Muda para a branch gh-pages
-git checkout gh-pages
-
-REM Remove todos os arquivos da branch gh-pages
-git checkout main -- .
-
-REM Gera os arquivos de build
-npm run build
-
-REM Adiciona os arquivos gerados ao índice
-git add dist
-
-REM Faz o commit dos arquivos gerados
-git commit -m "new build"
-
-REM Empurra os arquivos gerados para a branch gh-pages
-git push
+git subtree push --prefix dist origin gh-pages
 
 REM Muda para a branch main
 git checkout main
