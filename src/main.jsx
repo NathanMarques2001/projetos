@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Rotas } from './routes'
-import '../styles/global.css'
+import Portfolio from './App.jsx'
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Rotas />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <Portfolio />
+    </React.StrictMode>,
 )
