@@ -182,7 +182,9 @@ const Portfolio = () => {
             <div className="border-y border-slate-800 bg-[#0F172A]/50">
                 <div className="max-w-6xl mx-auto px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
                     <div>
-                        <div className="text-2xl md:text-3xl font-bold text-white">3+</div>
+                        <div className="text-2xl md:text-3xl font-bold text-white">
+                            {new Date().getFullYear() - 2023}+
+                        </div>
                         <div className="text-xs md:text-sm text-slate-500 font-mono mt-1">ANOS DE EXPERIÊNCIA</div>
                     </div>
                     <div>
