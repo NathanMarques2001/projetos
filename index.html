@@ -1,15 +1,289 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Nathan Marques</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Marques | Full Stack Engineer</title>
+  <meta name="description"
+    content="Portfolio de Nathan Marques - Desenvolvedor Full Stack especializado em sistemas de alta performance." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <i data-lucide="terminal" class="logo-icon"></i>
+        <span class="logo-text">NATHAN <span>MARQUES</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#about">Sobre</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="pulse-container">
+            <span class="pulse-ring"></span>
+            <span class="pulse-dot"></span>
+          </span>
+          DISPONÍVEL PARA NOVOS PROJETOS
+        </div>
+
+        <h1 class="hero-title">
+          Construo sistemas que <span class="gradient-text">escalam.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Desenvolvedor Full Stack especializado em arquitetura de software,
+          infraestrutura cloud e soluções de alta complexidade. De servidores
+          Linux a interfaces React modernas.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            Ver Projetos <i data-lucide="chevron-right" class="icon-sm"></i>
+          </a>
+          <a href="./assets/curriculo.pdf" download="Nathan_Marques_Curriculo.pdf" target="_blank"
+            class="btn btn-outline">
+            <i data-lucide="download" class="icon-sm"></i> Download CV
+          </a>
+        </div>
+      </div>
+
+      <!-- Abstract Tech Visual -->
+      <div class="hero-visual">
+        <div class="code-card-glow"></div>
+        <div class="code-card">
+          <div class="code-header">
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+          </div>
+          <div class="code-content">
+            <div class="line">
+              <span class="kwd">const</span>
+              <span class="var">developer</span> = <span class="op">{</span>
+            </div>
+            <div class="line indent">
+              name: <span class="str">'Nathan Marques'</span>,
+            </div>
+            <div class="line indent">
+              role: <span class="str">'Full Stack Engineer'</span>,
+            </div>
+            <div class="line indent">
+              stack: [<span class="str">'Node'</span>,
+              <span class="str">'Java'</span>,
+              <span class="str">'React'</span>,
+              <span class="str">'Docker'</span>],
+            </div>
+            <div class="line indent">
+              architecture: <span class="bool">true</span>,
+            </div>
+            <div class="line indent">
+              focus: <span class="str">'High Performance Systems'</span>
+            </div>
+            <div class="line"><span class="op">}</span>;</div>
+            <div class="line comment">// Ready to deploy...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <div class="stats-bar">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-value" id="experience-years">3+</div>
+        <div class="stat-label">ANOS DE EXPERIÊNCIA</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">Full Cycle</div>
+        <div class="stat-label">DEV & DEPLOY</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">Backend</div>
+        <div class="stat-label">JAVA & NODE POWERHOUSE</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">System</div>
+        <div class="stat-label">ARQUITETURA & INFRA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container about-container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <p className="about-text">
+        Desenvolvedor Full Stack com forte viés em Engenharia de Software.
+        Diferente do padrão de mercado, minha base técnica me permite
+        transitar de aplicações web modernas a compiladores e otimizações de
+        baixo nível.
+        <br /><br />
+        Meu foco é entregar valor através de código limpo e infraestrutura
+        sólida. Experiência real com deploy em ambientes complexos (Oracle
+        Linux, Azure), microsserviços e integração de APIs críticas. Busco
+        desafios onde a performance e a arquitetura sejam tão importantes
+        quanto a interface.
+      </p>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="section stack-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="stack-grid">
+        <!-- Backend -->
+        <div class="stack-card group">
+          <div class="icon-box blue-box">
+            <i data-lucide="server" class="text-blue"></i>
+          </div>
+          <h3 class="card-title">Backend & Core</h3>
+          <ul class="tech-list">
+            <li>
+              <span class="dot blue"></span>Java (17, 21, 25) + Spring Boot
+            </li>
+            <li><span class="dot blue"></span>Node.js (API Rest)</li>
+            <li><span class="dot blue"></span>PHP 8 + Custom MVC</li>
+            <li><span class="dot blue"></span>Python (TensorFlow/NLP)</li>
+          </ul>
+        </div>
+
+        <!-- Infra -->
+        <div class="stack-card group">
+          <div class="icon-box emerald-box">
+            <i data-lucide="layers" class="text-emerald"></i>
+          </div>
+          <h3 class="card-title">Infra & DevOps</h3>
+          <ul class="tech-list">
+            <li>
+              <span class="dot emerald"></span>Docker & Containerization
+            </li>
+            <li>
+              <span class="dot emerald"></span>Oracle Linux / Ubuntu Server
+            </li>
+            <li><span class="dot emerald"></span>Nginx (Reverse Proxy)</li>
+            <li><span class="dot emerald"></span>Azure Cloud Services, AWS</li>
+          </ul>
+        </div>
+
+        <!-- Frontend -->
+        <div class="stack-card group">
+          <div class="icon-box purple-box">
+            <i data-lucide="layout" class="text-purple"></i>
+          </div>
+          <h3 class="card-title">Frontend & Interface</h3>
+          <ul class="tech-list">
+            <li><span class="dot purple"></span>React.js & Vite</li>
+            <li><span class="dot purple"></span>JavaFX (Desktop UI)</li>
+            <li><span class="dot purple"></span>Tailwind CSS</li>
+            <li>
+              <span class="dot purple"></span>Responsividade Mobile-First
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="projects-header">
+        <div>
+          <h2 class="section-title">Projetos Selecionados</h2>
+          <p class="section-subtitle">
+            Casos reais que demonstram profundidade técnica.
+          </p>
+        </div>
+
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="system">
+            Sistemas & Backend
+          </button>
+          <button class="filter-btn" data-filter="fullstack">
+            Full Stack
+          </button>
+        </div>
+      </div>
+
+      <div id="projects-grid" class="projects-grid">
+        <!-- Projects will be injected here by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container footer-content">
+      <h2 class="footer-title">Pronto para o próximo nível?</h2>
+      <p class="footer-text">
+        Estou disponível para projetos que exijam arquitetura sólida e
+        implementação meticulosa. Vamos discutir como posso agregar valor ao
+        seu time.
+      </p>
+
+      <div class="social-links">
+        <a href="https://github.com/NathanMarques2001" class="social-btn"><i data-lucide="github"></i></a>
+        <a href="https://www.linkedin.com/in/nathan-marques-1a7818244/" class="social-btn"><i
+            data-lucide="linkedin"></i></a>
+        <a href="mailto:nathanbrandao1@gmail.com" class="social-btn"><i data-lucide="mail"></i></a>
+      </div>
+
+      <div class="copyright">
+        © <span id="year"></span> Nathan Marques. Built with HTML, CSS & JS.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+    // Set Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Calculate Years of Experience
+    const startDate = new Date("2022-01-01");
+    const today = new Date();
+    let years = today.getFullYear() - startDate.getFullYear();
+    const m = today.getMonth() - startDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < startDate.getDate())) {
+      years--;
+    }
+    document.getElementById("experience-years").textContent = years + "+";
+  </script>
 </body>
 
 </html>
